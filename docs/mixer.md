@@ -3,6 +3,20 @@ sidebar_position: 1
 ---
 # Mixer settings
 
+## Description
+A mixer is an inclusive pickup game that **anyone can join**. Being competitive is encouraged though the primary focus is having fun. Mixers take place every Friday and Saturday at 8PM CT. Players will gather in the lobby voice channel until there is enough players to get started. (Minimum 14)
+
+## Rules
+Games are initiated when two captains are chosen (either by previous captains or voluntarily). They will agree on who gets first pick and then alternately choose players from lobby. The team that did not get first pick gets the choice of map and side. Teams may be as large as the game server allows (i.e. at most 16 players per team). Once both teams are chosen and all players are in the server, the match is started by an admin.
+
+There is a 7 cap limit.
+
+Rabbiting with the flag (skiing around the map as opposed to going to your base) is disallowed.
+
+As opposed to pugs, figiting (offense shooting enemy offense) is allowed. There are no restrictions on who can shoot whom.
+
+Changes in player roster during game should be agreed upon by both captains.
+
 ## Modifications
 
 | Description | Items | Details | Reason |
@@ -28,6 +42,7 @@ sidebar_position: 1
 |Nades are much stronger: <hr/> Increased damage, radius, impulse <hr/> Grenade midairs|T5 <hr/> AP grenade <hr/> Frag grenade|All: <br/> `Damage: 800/875/950 -> 800/880/960`<br/> `Direct hit multiplier: 1.0 -> 1.25` <br/> `Impulse: 85000 -> 110000` <br/> `Radius: 600 -> 800` <br/> `Explode on player contact: false -> true` <hr/> T5: <br/> `Min damage droportion: 0 -> 0.5` <br/> `Min damage range proportion: 0.9 -> 1.0`| Makes grenades much beefier (comparable to GOTY in strength) and also capable of direct hits with 1000/1100/1200 dmg. Makes T5s in particular much more viable (now with same damage banding as other nades), and direct hits make capping self-clear with grenades more strong/viable. Nade MAs are surprisingly difficult to hit but very rewarding |
 |Cluster grenades are much stronger:<hr/> +3 bomblets <hr/> Directional inheritance <hr/> Increased bomblet damage/impulse|Cluster grenade|Primary shot: <br/> `Bomblets: 5 -> 8` <br/> `Fully inherit velocity: true -> false` <hr/> Secondary shots (bomblets): <br/> `Damage: 190 -> 425` <br/> `Radius: 550 -> 600` <br/> `Explode on player contact: false -> true`| With about 5s between being thrown and actual damage, this makes the cluster grenade like a long range shot gun which does a lot of damage if aimed well. A well aimed shot can 1 shot a medium and a perfect shot could 1 shot a heavy in theory, but this is incredibly difficult to do. The long travel time makes avoiding the bomlets easy if the grenade is spotted. Also gives the cluster grenade the same directional inheritance of other grenades|
 |Repair tools heal players|Default repair tool <hr/> Medium repair tool| `PawnRepairPercentage: 0 -> 0.06/0.1` <br/> `Range: 400 -> 1000`|Brings back the old T2 repair tool player healing. Particularly useful for healing flag holders|
+|Beowulf gunner is replaced with an arx-like weapon|Beowulf gunner|`Projectile: Beowulf Gunner -> Dust Devil (Arx Buster_MKD)` <br/> `Damage: 300` <br/> `Direct Hit Multiplier: 1.25` <br/> `Damage Banding: Linear` <br/> `Min Damage Proportion: 0.5`|The beowulf gunner used to be banned due to it being chain. This provides a replacement for the beowulf gunner that can satisfy a similar niche: punishing those that get too close to the tank|
 
 ## Bans
 | Group | Items | Reason |

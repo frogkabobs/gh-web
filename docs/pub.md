@@ -3,6 +3,9 @@ sidebar_position: 2
 ---
 # Pub settings
 
+# Description
+These are the settings for the server `Official | CTF | NAC` on community servers. These modifications were made for QOL reasons or to buff weak/obsolete weapons in OOTB, while maintaining a vanilla feel.
+
 ## Modifications
 
 | Description | Items | Details | Reason |
