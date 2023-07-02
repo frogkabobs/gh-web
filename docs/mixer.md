@@ -43,6 +43,46 @@ Changes in player roster during game should be agreed upon by both captains.
 |Cluster grenades are much stronger:<hr/> +3 bomblets <hr/> Directional inheritance <hr/> Increased bomblet damage/impulse|Cluster grenade|Primary shot: <br/> `Bomblets: 5 -> 8` <br/> `Fully inherit velocity: true -> false` <hr/> Secondary shots (bomblets): <br/> `Damage: 190 -> 425` <br/> `Radius: 550 -> 600` <br/> `Explode on player contact: false -> true`| With about 5s between being thrown and actual damage, this makes the cluster grenade like a long range shot gun which does a lot of damage if aimed well. A well aimed shot can 1 shot a medium and a perfect shot could 1 shot a heavy in theory, but this is incredibly difficult to do. The long travel time makes avoiding the bomlets easy if the grenade is spotted. Also gives the cluster grenade the same directional inheritance of other grenades|
 |Repair tools heal players|Default repair tool <hr/> Medium repair tool| `PawnRepairPercentage: 0 -> 0.06/0.1` <br/> `Range: 400 -> 1000`|Brings back the old T2 repair tool player healing. Particularly useful for healing flag holders|
 |Beowulf gunner is replaced with an arx-like weapon|Beowulf gunner|`Projectile: Beowulf Gunner -> Dust Devil (Arx Buster_MKD)` <br/> `Damage: 300` <br/> `Direct Hit Multiplier: 1.25` <br/> `Damage Banding: Linear` <br/> `Min Damage Proportion: 0.5`|The beowulf gunner used to be banned due to it being chain. This provides a replacement for the beowulf gunner that can satisfy a similar niche: punishing those that get too close to the tank|
+|Medium safe-fall capping|Medium energy pack|`Safe fall: false -> true` |The energy pack was superfluous so it has now been given safe fall for medium cappers|
+|Jammer sonic punch|Jammer pack|`Sonic punch: false -> true` |Combines the sonic punch with the thematically similar jammer pack|
+|HoF Rage|Heavy shield pack|`Rage: false -> true` <br/> `RageHealthRegen: 0 -> 0.5` |Increases the survivability of HoFs especially when there are more people/cappers|
+|Stronger forcefields|Heavy forcefield|`Health: 1600 -> 10000` <br/> `MaxDeployables: 1 -> 2` <br/> `ForceFieldMinDamage: 750` <br/> `ForceFieldMaxDamage: 0` <br/> `MinProximity: ? -> 0` |Makes forcefields much more survivable and scale damage down from 750 at 0kph to 0 at 200 kph+|
+
+## New Weapons
+
+| Class | Item | Description |
+| --- | --- | --- |
+| Light | Dueling spinfusor | 75% inheritance variant of the light spinfusor |
+| Light | Stealth spinfusor (AKA GOTYfusor) | Capper specialized spinfusor. Has banded damage to max 400 splash damage, gives vertical impulse, and gives safe-fall |
+| Light | Sticky-XL | Higher damage counterpart to the sticky grenade. Does 1300 stuck damage and has 2 ammo |
+| Light | Compact nitron | Smaller radius counterpart to the impact nitron. Has 3 ammo |
+| Light | Heavy impact nitron | Larger radius and damage counterpart to the impact nitron. Has 1 ammo |
+| Light | Motion mine | Unchanged |
+| Medium | Spinfusor MKX | 75% inheritance variant of the medium spinfusor |
+| Medium | Thumper D (AKA Honorthumper) | Thumper counterpart to honorfusor. Has same arc as light bolt/thumper/heavy bolt |
+| Medium | Dust devil | Higher clip counterpart to arx buster. Has 4 clip ammo, does 500 stuck damage, and greater slpash damage. Fires at the same rate as the arx, meaning it has lower DPS |
+| Medium | Long range repair tool | Longer range version of the repair tool. Repairs players at a rate of 0.085 |
+| Medium | Flare grenade | Diverts saber missiles onto itself. Also does an explosion after 8 seconds |
+| Medium | Frag grenade XL | Has a smaller radius compared to the AP grenade but does more damage |
+| Medium | Short-fuse frag | Has a smaller radius compared to the AP grenade but has a shorter fuse |
+| Medium | EMP XL | Has a larger radius compared to the EMP but has a does less damage. Drains all energy of every hit player regardless of distance |
+| Medium | Proxy grenade | Unchanged |
+| Medium | Defective frag | Sticks to surfaces rather than bouncing |
+| Medium | TCNG | Negative impulse counterpart to the AP grenade (it pulls players in rather than pushing them out) |
+| Medium | TCNG quickfuse | Has a smaller radius compared to the TCNG has a shorter fuse |
+| Medium | Repair kit | Unchanged |
+| Medium | Personal forcefield | Tiny version of the heavy forcefield |
+| Medium | Energy pack | Capper specialized pack. Gives 20 extra energy and safe-fall |
+| Heavy | Spinfusor MKD | 75% inheritance variant of the heavy spinfusor |
+| Heavy | Fusion mortar deluxe | 100% inheritance variant of the fusion mortar |
+| Heavy | Titan launcher | Unchanged |
+| Heavy | Heavy AP | Explodes after bouncing, like a grenade launcher |
+| Heavy | Heavy AP-XL | Larger radius version of the heavy AP-XL but with less damage |
+| Heavy | Heavy sticky grenade | Unchanged |
+| Heavy | Throwing disk | Unchanged (same as a light spinfusor shot) |
+| Heavy | Extended fractal | Does a few small explosions followed by one larger one |
+| Heavy | Regen pack | Unchanged |
+
 
 ## Bans
 | Group | Items | Reason |
